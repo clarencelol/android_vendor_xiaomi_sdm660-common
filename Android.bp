@@ -291,6 +291,12 @@ dex_import {
 }
 
 dex_import {
+	name: "tcmclient",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/tcmclient.jar"],
+}
+
+dex_import {
 	name: "com.qti.dpmframework",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
@@ -329,6 +335,20 @@ dex_import {
 	name: "com.qualcomm.qti.uceservice-V2.1-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.2-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.3-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.3-java.jar"],
 	system_ext_specific: true,
 }
 
